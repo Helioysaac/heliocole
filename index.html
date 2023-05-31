@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Menu </title>
+
+  <!--basico-->
+
+  <meta name="author" content="By Hélio Cole e Keny">
+
+    <style>
+        .pagina {
+            background-color: #1b1b1f ; /* Substitua #ff0000 pela cor desejada */
+        }
+       
+    </style>
+  
+   <link rel="stylesheet" type="text/css" href="folha estilo.css">
+ 
+   <!--tipo de letra-->
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!--link de icones das redes sociais-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+   
+  </head>
+<body class="pagina">
+    <!-- Conteúdo da sua página aqui -->
+<!--codigo do icone-->
+
+<div style="float: right;">
+  <a href="https://www.facebook.com/seu-usuario" target="_blank">
+   <i class="fab fa-facebook fa-2x"></i>
+ </a>
+ <a href="https://www.instagram.com/seu-usuario" target="_blank">
+   <i class="fab fa-instagram fa-2x"></i>
+</a>
+<a href="https://twitter.com/seu-usuario" target="_blank">
+ <i class="fab fa-twitter fa-2x"></i>
+</a>
+</div>
+
+<div class="destaque">
+      <center><h1 class="titulo-tema">Hotels Cole Company </h1></center></div>
+
+  <center>
+    <div id="meuCarrossel" class="carousel slide" data-ride="carousel">
+        <!-- Indicadores -->
+        <ul class="carousel-indicators">
+          <li data-target="#meuCarrossel" data-slide-to="0" class="active"></li>
+          <li data-target="#meuCarrossel" data-slide-to="1"></li>
+          <li data-target="#meuCarrossel" data-slide-to="2"></li>
+          <li data-target="#meuCarrossel" data-slide-to="3"></li>
+          <!-- Adicione mais indicadores conforme necessário -->
+        </ul>
+      
+        <!-- Slides -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/b.png" alt="Imagem 1">
+            <div class="carousel-caption">
+              <h3>Hotels Cole Company</h3>
+              <p>Welcome to Hotels Cole Company</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/a.jpg" alt="Imagem 2">
+            <div class="carousel-caption">
+              <h3>Hotels Cole Company</h3>
+              <p>melhor que este não há a lugar algum</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/kilo.webp" alt="Imagem 3">
+            <div class="carousel-caption">
+              <h3>Hotels Cole Company </h3>
+              <p>Temos todo tipo de serviço, faça já a sua reserva </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/e.jpg" alt="Imagem 4">
+            <div class="carousel-caption">
+              <h3>Hotels Cole Company</h3>
+              <p>Venha Já </p>
+            </div>
+          </div>
+          <!-- Adicione mais slides conforme necessário -->
+        </div>
+     
+        <!-- Controles -->
+        <a class="carousel-control-prev" href="#meuCarrossel" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#meuCarrossel" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+      <script src="script.js"></script>
+
+    <!--controle de opções-->
+    <div class="destaque">
+
+  <label for="opcoes">Selecione a Tua região:</label>
+    <select id="opcoes">
+        <option value="opcao1" label="ANGOLA"></option>
+        <option value="opcao2" label="POTUGAL"></option>
+        <option value="opcao3" label="SÃO TOMÉ E PRINCIPE"></option>
+        <option value="opcao4" label="BRASIL"></option>
+        <option value="opcao5" label="CAPE VERDE"></option>
+        <option value="opcao6" label="MOÇAMBIQUE"></option>
+        <option value="opcao7" label="GUINÉ EQUATÓRIAL"></option>
+        <option value="opcao8" label="GUINÉ BISSAU"></option>
+        <option value="opcao9" label="TIMOR LESTE"></option>
+        
+        <!-- Adicione mais opções conforme necessário -->
+    </select>  
+  </div></center>
+
+     <center>
+    
+      <a href="https://www.guestreservations.com/epic-sana-lisboa-hotel/booking?gclid=Cj0KCQjwyLGjBhDKARIsAFRNgW-4rdWAjguUxAv439qayfaRuwTKvI6Iy9_IYfYVbV5GhFeKTfw_-xAaAk4yEALw_wcB.html" class="botao">Hote Epic Sana</a>
+  <a href="https://www.tdhotels.com/en/angola/hotels-luanda/hotel-de-convencoes-de-talatona/.html" class="botao">Hotel HCTA</a>
+  <a href="https://www.estorilvintage.com/?gclid=Cj0KCQjwyLGjBhDKARIsAFRNgW_mNvMQjKhFOhbMlYKw7B7GgHntjAmF4Eg8KA7CWdVSFXjvtKm0094aAlioEALw_wcB.html" class="botao">Hotel Estoril Vintage </a>
+  <a href="https://www.mercurehotels.co.za/rooms/nelspruit/?gclid=Cj0KCQjwyLGjBhDKARIsAFRNgW9Ia0jL-PWmdZSn2IbXJQrNpnVyCtWMeQxc-DMFMBMaDbZ2snItydYaApFcEALw_wcB.html" class="botao">Mercure Hotel Nelspruit</a>
+  <a href="https://nineorchard.com/?gclid=Cj0KCQjwyLGjBhDKARIsAFRNgW9a5BGtXFPrJ3sJaSovkSTOJy15Jc1vml_H4jUHslspEFL31n1ufzoaAm8dEALw_wcB.html" class="botao">Hotel Nine orchard</a>
+  <a href="https://zagaia.com.br/?gclid=Cj0KCQjwyLGjBhDKARIsAFRNgW8xzSoF1XrT_K76PVPhgKx4_Fktw7Ui4GHGNbwz4sX6ZriC5AQNi8QaApzeEALw_wcB.html" class="botao">Hotel Zagaia</a>
+  <a href="https://www.hoteldoscastillas-madrid.com/en/.html" class="botao"> Hotel Madrid Castillas</a>
+  <a href="https://www.fourseasons.com/zh/hangzhou/.html" class="botao"> Hotel China</a>
+      
+<img src="img/y.jpg" alt="Preço: $250.850.00" style="width: 400px; height: 400px;">, <img src="img/s.jpg" alt="Preço: $175.300.00" style="width: 400px; height: 400px;"> 
+<img src="img/g.jpg" alt="Preço: £360.100.00" style="width: 400px; height: 400px;">, <img src="img/f.jpg" alt="Preço: kZ200.000.00" style="width: 400px; height: 400px;">
+<img src="img/x.jpg" alt="Preço: $250.010.00" style="width: 400px; height: 400px;">, <img src="img/j.jpg" alt="Preço: R$450.000.00 " style="width: 400px; height: 400px;">
+
+
+<!--autoria-->
+<footer>
+  <p>&copy; 2023 Hélio Cole. Todos os direitos reservados.</p>
+</footer></center>
+
+</body>
+</html>

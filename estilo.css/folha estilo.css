@@ -1,0 +1,12 @@
+h1, h2 {
+    background-color: #0b527a; /* Cor de fundo */
+    color: #ffffff; /* Cor do texto */
+}
+.titulo-tema {
+    /* Estilos personalizados para o cabeçalho */
+}
+body {
+    background-image: url(fundo.gif);
+    background-repeat: repeat;
+    /* Outras propriedades de estilo para personalizar o fundo, se necessário */
+}
